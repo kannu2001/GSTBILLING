@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KGS</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-secondary">
+
+    <div class="container">
+        <h4 style="text-align: center;"> ADD ACCOUNT MASTER </h4> <a href="index.html" class="btn btn-dark">BACK</a>
+        <hr>
+        <div class="row mb-4">
+            <div class="col-md-6 mb-4 border"   style="border-radius: 20px;">
+                <table>
+
+                    <tr>
+                        <th>NAME:</th>
+                        <td><input type="text" placeholder="ACCOUNT NAME" style="width: 500px; text-align: center;"
+                                name="uname"></td>
+                    </tr>
+
+                    <tr>
+                        <th>GROUP:</th>
+                        <td><input type="text" placeholder="BUSSINESS GROUP" style="width: 300px; text-align: center;"
+                                name="ugroup"> </td>
+                    </tr>
+                    <tr>
+                        <th>BILL-TYPE</th>
+                        <td><select style="text-size-adjust: 20px; width: 150px;">
+                                <option>TAX INVOICE</option>
+                                <option>DEBIT</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Op. BALANCE</th>
+                        <td><input type="number" placeholder="Amount" style="width: 150px;" name="ubal"></td>
+
+                    </tr>
+                    <tr>
+                        <th>
+                        <td>
+                            <select style="text-size-adjust: 20px; width: 150px;">
+                                <option>DEBIT</option>
+                                <option>CREDIT</option>
+                            </select>
+                        </td>
+                        </th>
+                    </tr>
+
+                </table>
+            </div>
+
+
+            <div class="col-md-6 mb-4 ">
+                <div class="row mb-4 border"  style="border-radius: 20px;">
+                    <table>
+
+                        <tr>
+                            <th>GSTIN :</th>
+                            <td><input type="ADDRESS" style="width: 250px;" name="ugst"></td>
+                        </tr>
+                        <tr>
+                            <th>CST TIN :</th>
+                            <td><input type="ADDRESS" style="width: 250px;" name="ucst"> </td>
+                        </tr>
+                        <tr>
+                            <th>Acc. Type</th>
+                            <td><select style="text-size-adjust: 20px; width: 150px;">
+                                    <option>REGULAR/REGISTER</option>
+                                    <option>COMPOSITE</option>
+                                    <option>UNREGISTERED</option>
+                                    <option>CONSUMER</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>P.A.N No.:</th>
+                            <td><input type="ADDRESS" style="width: 250px;" name="upan"></td>
+                        </tr>
+                        <tr>
+                            <th>E.C.C No.:</th>
+                            <td><input type="pin" style="width: 250px;" name="uecc"></td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mb-4 mb-4">
+            <div class="col-md-6 mb-4 border"  style="border-radius: 20px;">
+                <table>
+                    <tr>
+                        <th>ADDRESS :</th>
+                        <td><input type="ADDRESS" name="uadd"></td>
+                    </tr>
+                    <tr>
+                        <th>CITY :</th>
+                        <td><input type="ADDRESS" style="width: 250px;" name="ucity"></td>
+                    </tr>
+                    <tr>
+                        <th> STATE:</th>
+                        <td><input type="ADDRESS" style="width: 250px;" name="usate"></td>
+                    </tr>
+                    <tr>
+                        <th>PIN CODE:</th>
+                        <td><input type="pin" style="width: 250px;" name="upin"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-6 mb-4 border" style="border-radius: 20px;">
+                <table>
+                    <tr>
+                        <th>AADHAR NO. :</th>
+                        <td><input type="number" style="width: 250px;" name="uadar"></td>
+                    </tr>
+                    <tr>
+                        <th> PHONE :</th>
+                        <td><input type="number" style="width: 250px;" name="uphone"></td>
+                    </tr>
+                    <tr>
+                        <th>FAX :</th>
+                        <td><input type="number" style="width: 250px;" name="ufax"></td>
+                    </tr>
+                    <tr>
+                        <th>MOBILE NO.</th>
+                        <td><input type="number" style="width: 200px;" name="uno1">
+                        <input type="number" style="width: 200px;" name="uno2">
+                        <input type="number" style="width: 200px;" name="uno3"></td>
+                    </tr>
+                    <tr>
+                        <th>E-MAIL :</th>
+                        <td><input type="email" style="width: 250px;" name="umail"></td>
+                    </tr>
+                    <tr>
+                        <th>WEBSITE :</th>
+                        <td><input type="text" style="width: 250px;" name="uweb"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row ">
+        <input type="submit" value="SAVE" style="width: 10%;">
+        <input type="submit" value="CANCLE" style="width: 15%;">
+    </div>
+
+
+
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/popper.js"></script>
+</body>

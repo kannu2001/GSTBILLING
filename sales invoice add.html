@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KGS</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body class="bg-secondary">
+    
+        <div class="container">
+            <h4 style="text-align: center;"> SALES INVOICE ADDITION </h4> <a href="index.html" class="btn btn-dark">BACK</a><hr> 
+            <div class="row mx-auto mb-5">
+                <div class="col-md-5 border ">
+                    <label for="text">CASH/DEBIT</label>
+                    <select style="text-size-adjust: 20px;"> 
+                            <option>CASH</option>
+                            <option>DEBIT</option>
+                    </select> <br>
+                    <label for="date">BILL DATE :</label>
+                    <input type="date" id="datepicker" name="datepicker">
+                    <label for="date">No.:</label>
+                    <input type="number" placeholder="Invoice Number">
+                    <label for="text">VAT CLASS:</label>
+                    <select style="text-size-adjust: 20px;"> 
+                            <option>TAX INVOICE</option>
+                            <option>DEBIT</option>
+                    </select> <br>
+                </div>
+                <div class="col-md-5 border offset-1">
+                    <label for="name">SALES A/c:</label>
+                    <input type="text" placeholder="enter debit a/c"> <br>
+                    
+                    <label for="address"> ACCOUNT:</label>
+                    <input type="text" placeholder="enter cash name"><br>
+                    
+                </div>
+            </div>
+            <div class="row mx-auto mb-5 border">
+                <table border="1" align="center">
+                    <tr style="text-align: center;">
+                        <th>PRODUCT </th>
+                        <th>QUANTITY</th>
+                        <th>CASE/BAG</th>
+                        <th>RATE</th>
+                        <th>AMOUNT</th>
+                        
+                    </tr>
+                    
+                    <tr>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="number" style="width: 100%;"></td>
+                        <td><input type="number" style="width: 100%;"></td>
+                        <td><input type="number" style="width: 100%;"></td>
+                        <td><input type="number" style="width: 100%;"></td>
+                    </tr> 
+                    <tr>
+                        <td><input type="text" style="width: 100%;"></td>
+                        <td><input type="number" style="width: 100%;"></td>
+                        <td><input type="number" style="width: 100%;"></td>
+                        <td><input type="number" style="width: 100%;"></td>
+                        <td><input type="number" style="width: 100%;"></td>
+                    </tr> 
+                   
+                    
+                </table>
+            </div>
+            <div class="row mx-auto mb-5">
+                <div class="col-md-3 border">
+                    <label for="remark">REMARK</label><br>
+                    <textarea name="remark"></textarea>
+                </div>
+                <div class="col-md-3 p-3 offset-1">
+                    <input type="submit" value="SAVE">
+                    <input type="submit" value="CANCLE">
+                    <input type="submit" value="SAVE/PRINT">
+                </div>
+                <div class="col-md-4 border">
+                    <strong>PRODUCT AMOUNT</strong>&nbsp;&nbsp;
+                    <input type="number" placeholder="0.00" style="width: 50%;"> <br>
+                    
+                    <strong>OTHER AMOUNT</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number" placeholder="0.00" style="width: 50%;"><br>
+    
+                    <strong>TOTAL BILL AMOUNT</strong>
+                    <input type="number" placeholder="0.00" style="width: 50%;"><br>
+                </div>
+             </div>
+        </div>
+          
+        
+        
+<script src="static/js/bootstrap.min.js"></script>
+<script src="static/js/popper.js"></script>
+</body>
+

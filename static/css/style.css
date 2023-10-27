@@ -1,0 +1,17 @@
+.anchor{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.anchor a:hover{
+    color: black;
+}
+.anchor a i:hover{
+    color: black;
+}
+.anchor a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
